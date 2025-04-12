@@ -58,7 +58,7 @@ class Game:
 
 words = []
 
-with open("words.txt") as file:
+with open("C:/Users/User/Desktop/words.txt") as file:
     for word in file:
         words.append(word[:-1])
 
